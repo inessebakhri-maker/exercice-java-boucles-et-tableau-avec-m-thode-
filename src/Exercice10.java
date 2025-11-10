@@ -20,17 +20,15 @@ menu();
                 System.out.println("1: Afficher Bonjour/ 2: Afficher Aurevoir/ 3:Quitter");
                 choice = input.nextInt();
             }
-            if (choice == n) {
+            else if (choice == n) {
                 System.out.println("Aurevoir");
                 System.out.println("1: Afficher Bonjour/ 2: Afficher Aurevoir/ 3:Quitter");
             choice = input.nextInt();}
-            if (choice == x) {
+            else if (choice == x) {
                 run = false;
             }
 
-            }
-
-        while (run) ;
+            } while (run);
                 System.out.println("Quitter");
 
     }
